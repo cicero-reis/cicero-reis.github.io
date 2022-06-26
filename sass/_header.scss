@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 1em 0;
+    color: var(--dark-grey);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+
+
+    &__left {
+        display: flex;
+        align-items: center;
+
+        &-image {
+            width: 35px;
+            height: 35px;
+            margin-right: 0.5em;
+            border-radius: 50%;
+            display: inline-block;
+        }
+    }
+
+    &__right {
+        display: flex;
+
+        &-about,
+        &-project,
+        &-contacts {
+            text-decoration: none;
+            color: var(--dark-grey);
+        }
+
+        & a:hover {
+            color: var(--black);
+        }
+
+        & a:active {
+            color: var(--black);
+        }
+
+        &-project {
+            margin: 0 1em;
+        }
+    }
+}
