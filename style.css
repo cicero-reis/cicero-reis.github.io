@@ -1,4 +1,4 @@
-/* Fonte e reset */
+/* Reset e fonte */
 * {
   margin: 0;
   padding: 0;
@@ -28,17 +28,48 @@ header p {
   font-size: 1.1rem;
 }
 
-main {
+/* Skills */
+.skills {
   max-width: 1000px;
   margin: 2rem auto;
   padding: 0 1rem;
+  text-align: center;
+}
+
+.skills h2 {
+  color: #4f46e5;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.skill-list span {
+  background-color: #e0e7ff;
+  color: #1e40af;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* Projetos */
+.projects {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  text-align: center;
 }
 
 .projects h2 {
-  text-align: center;
+  color: #4f46e5;
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #4f46e5;
 }
 
 .cards {
@@ -88,9 +119,26 @@ main {
   background-color: #6366f1;
 }
 
+/* Arquitetura */
+.architecture {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.architecture img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+}
+
+.architecture h2 {
+  color: #4f46e5;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
 footer {
   text-align: center;
-  padding: 2rem 1rem;
-  color: #6b7280;
-  font-size: 0.9rem;
-}

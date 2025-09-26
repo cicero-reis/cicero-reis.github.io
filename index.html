@@ -14,17 +14,33 @@
   </header>
 
   <main>
+    <!-- Skills -->
+    <section class="skills">
+      <h2>Skills</h2>
+      <div class="skill-list">
+        <span>Laravel 12</span>
+        <span>Vue.js 3</span>
+        <span>FastAPI + LangChain</span>
+        <span>AWS S3/SQS/CloudWatch</span>
+        <span>Firebase Cloud Messaging</span>
+        <span>Octane + RoadRunner</span>
+        <span>Clean Architecture & SOLID</span>
+        <span>Unit & Feature Testing</span>
+      </div>
+    </section>
+
+    <!-- Projetos -->
     <section class="projects">
       <h2>Projetos</h2>
       <div class="cards">
         <div class="card">
           <h3>Laravel API</h3>
-          <p>Backend completo com Clean Architecture, AWS S3/SQS/CloudWatch e Octane.</p>
+          <p>Backend com Clean Architecture, Jobs, Scheduler, AWS e Octane.</p>
           <a href="https://github.com/cicero-reis/task-manager-backend" target="_blank">Ver Repositório</a>
         </div>
         <div class="card">
           <h3>Vue SPA</h3>
-          <p>Frontend SPA com Pinia, Axios, Vue Router e Firebase Cloud Messaging.</p>
+          <p>Frontend SPA com Pinia, Axios, Vue Router e notificações FCM.</p>
           <a href="https://github.com/cicero-reis/task-manager-frontend" target="_blank">Ver Repositório</a>
         </div>
         <div class="card">
@@ -33,6 +49,13 @@
           <a href="https://github.com/cicero-reis/task-manager-performance" target="_blank">Ver Repositório</a>
         </div>
       </div>
+    </section>
+
+    <!-- Arquitetura -->
+    <section class="architecture">
+      <h2>Arquitetura</h2>
+      <img src="architecture.png" alt="Diagrama de arquitetura" />
+      <p>Fluxo: Vue SPA → Laravel API → FastAPI + LangChain → Firebase / AWS</p>
     </section>
   </main>
 
