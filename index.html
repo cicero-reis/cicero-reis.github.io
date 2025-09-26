@@ -2,18 +2,42 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Portfólio Cicero Reis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cicero Reis - Portfólio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Olá, eu sou Cicero Reis</h1>
-  <p>Desenvolvedor Fullstack com Laravel, Vue.js e FastAPI</p>
+  <header>
+    <h1>Cicero Reis</h1>
+    <p>Desenvolvedor Fullstack | Laravel • Vue.js • FastAPI • AWS • LangChain</p>
+  </header>
 
-  <h2>Projetos</h2>
-  <ul>
-    <li><a href="https://github.com/usuario/task-manager-backend">Task Manager Backend (Laravel)</a></li>
-    <li><a href="https://github.com/usuario/task-manager-frontend">Task Manager Frontend (Vue.js SPA)</a></li>
-    <li><a href="https://github.com/usuario/task-manager-performance">FastAPI + LangChain</a></li>
-  </ul>
+  <main>
+    <section class="projects">
+      <h2>Projetos</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Laravel API</h3>
+          <p>Backend completo com Clean Architecture, AWS S3/SQS/CloudWatch e Octane.</p>
+          <a href="https://github.com/cicero-reis/task-manager-backend" target="_blank">Ver Repositório</a>
+        </div>
+        <div class="card">
+          <h3>Vue SPA</h3>
+          <p>Frontend SPA com Pinia, Axios, Vue Router e Firebase Cloud Messaging.</p>
+          <a href="https://github.com/cicero-reis/task-manager-frontend" target="_blank">Ver Repositório</a>
+        </div>
+        <div class="card">
+          <h3>FastAPI + LangChain</h3>
+          <p>Microservice Python para análise de desempenho do usuário via LangChain.</p>
+          <a href="https://github.com/cicero-reis/task-manager-performance" target="_blank">Ver Repositório</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Cicero Reis. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
