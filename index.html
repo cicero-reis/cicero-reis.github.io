@@ -2,65 +2,90 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cicero Reis - Portfólio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
-<body>
-  <header>
-    <h1>Cicero Reis</h1>
-    <p>Desenvolvedor Fullstack | Laravel • Vue.js • FastAPI • AWS • LangChain</p>
+<body class="bg-dark text-light">
+
+  <!-- Header -->
+  <header class="text-center py-5 bg-black">
+    <img src="creis.jpg" alt="Foto de Cicero Reis" class="rounded-circle shadow mb-3" width="240" height="240">
+    <h1 class="fw-bold text-orange">Cicero Cruz dos Reis</h1>
+    <p class="text-secondary">Desenvolvedor Back-end</p>
+    <p class="text-secondary">Laravel • Node.js • Vue.js • FastAPI • AWS • Firebase • LangChain</p>
+    <span class="fw-bold text-orange">Estudando Python • FastAPI • LangChain • IA Generativa</span>
   </header>
 
-  <main>
+  <main class="container my-5">
+
     <!-- Skills -->
-    <section class="skills">
-      <h2>Skills</h2>
-      <div class="skill-list">
-        <span>Laravel 12</span>
-        <span>Vue.js 3</span>
-        <span>FastAPI + LangChain</span>
-        <span>AWS S3/SQS/CloudWatch</span>
-        <span>Firebase Cloud Messaging</span>
-        <span>Octane + RoadRunner</span>
-        <span>Clean Architecture & SOLID</span>
-        <span>Unit & Feature Testing</span>
+    <section class="mb-5">
+      <h2 class="text-orange text-center mb-4">Skills</h2>
+      <div class="d-flex flex-wrap justify-content-center gap-2">
+        <span class="badge bg-orange text-dark">Laravel 12</span>
+        <span class="badge bg-light text-dark">Vue.js 3</span>
+        <span class="badge bg-secondary">FastAPI + LangChain</span>
+        <span class="badge bg-light text-dark">AWS S3/SQS</span>
+        <span class="badge bg-secondary">Firebase Cloud Messaging</span>
+        <span class="badge bg-light text-dark">Octane + RoadRunner</span>
+        <span class="badge bg-orange text-dark">Clean Architecture & SOLID</span>
+        <span class="badge bg-secondary">Unit & Feature Testing</span>
       </div>
     </section>
 
     <!-- Projetos -->
-    <section class="projects">
-      <h2>Projetos</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>Laravel API</h3>
-          <p>Backend com Clean Architecture, Jobs, Scheduler, AWS e Octane.</p>
-          <a href="https://github.com/cicero-reis/task-manager-backend" target="_blank">Ver Repositório</a>
+    <section class="mb-5">
+      <h2 class="text-orange text-center mb-4">Projetos</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 bg-black border-0 shadow">
+            <div class="card-body">
+              <h5 class="card-title text-orange">Laravel API</h5>
+              <p class="card-text text-secondary">Backend com Clean Architecture, Jobs, Scheduler, AWS e Octane.</p>
+              <a href="https://github.com/cicero-reis/laravel_api" target="_blank" class="btn btn-orange">Ver Repositório</a>
+            </div>
+          </div>
         </div>
-        <div class="card">
-          <h3>Vue SPA</h3>
-          <p>Frontend SPA com Pinia, Axios, Vue Router e notificações FCM.</p>
-          <a href="https://github.com/cicero-reis/task-manager-frontend" target="_blank">Ver Repositório</a>
+        <div class="col-md-4">
+          <div class="card h-100 bg-black border-0 shadow">
+            <div class="card-body">
+              <h5 class="card-title text-orange">Vue SPA</h5>
+              <p class="card-text text-secondary">Frontend SPA com Pinia, Axios, Vue Router e notificações FCM.</p>
+              <a href="https://github.com/cicero-reis/vue_spa" target="_blank" class="btn btn-orange">Ver Repositório</a>
+            </div>
+          </div>
         </div>
-        <div class="card">
-          <h3>FastAPI + LangChain</h3>
-          <p>Microservice Python para análise de desempenho do usuário via LangChain.</p>
-          <a href="https://github.com/cicero-reis/task-manager-performance" target="_blank">Ver Repositório</a>
+        <div class="col-md-4">
+          <div class="card h-100 bg-black border-0 shadow">
+            <div class="card-body">
+              <h5 class="card-title text-orange">FastAPI + LangChain</h5>
+              <p class="card-text text-secondary">Microservice Python para análise de desempenho via LangChain.</p>
+              <a href="https://github.com/cicero-reis/python_langchain" target="_blank" class="btn btn-orange">Ver Repositório</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Arquitetura -->
-    <section class="architecture">
-      <h2>Arquitetura</h2>
-      <img src="architecture.png" alt="Diagrama de arquitetura" />
-      <p>Fluxo: Vue SPA → Laravel API → FastAPI + LangChain → Firebase / AWS</p>
+    <!-- Contato -->
+    <section class="mb-5 text-center">
+      <h2 class="text-orange mb-3">Contato</h2>
+      <p>📧 <a href="mailto:ciceroreis@outlook.com" class="link-orange">ciceroreis@outlook.com</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/cicero-cruz-dos-reis-410b0777/" class="link-orange" target="_blank">LinkedIn</a> | 
+         <a href="https://github.com/cicero-reis" class="link-orange" target="_blank">GitHub</a></p>
     </section>
+
   </main>
 
-  <footer>
-    <p>© 2025 Cicero Reis. Todos os direitos reservados.</p>
+  <footer class="text-center py-3 bg-black text-secondary">
+    © 2025 Cicero Reis. Todos os direitos reservados.
   </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

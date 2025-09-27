@@ -1,145 +1,24 @@
-/* Reset e fonte */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+/* Cores personalizadas */
+.text-orange {
+  color: #ff6f00 !important;
 }
-
-body {
-  background-color: #f5f7fa;
-  color: #1f2937;
-  line-height: 1.6;
+.bg-orange {
+  background-color: #ff6f00 !important;
 }
-
-header {
-  text-align: center;
-  padding: 3rem 1rem;
-  background: linear-gradient(to right, #4f46e5, #6366f1);
-  color: white;
-}
-
-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-
-header p {
-  font-size: 1.1rem;
-}
-
-/* Skills */
-.skills {
-  max-width: 1000px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-  text-align: center;
-}
-
-.skills h2 {
-  color: #4f46e5;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.skill-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-}
-
-.skill-list span {
-  background-color: #e0e7ff;
-  color: #1e40af;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
+.btn-orange {
+  background-color: #ff6f00;
+  color: #fff;
   font-weight: 600;
-  font-size: 0.9rem;
+  border: none;
+  transition: 0.3s;
 }
-
-/* Projetos */
-.projects {
-  max-width: 1000px;
-  margin: 3rem auto;
-  padding: 0 1rem;
-  text-align: center;
+.btn-orange:hover {
+  background-color: #e65c00;
 }
-
-.projects h2 {
-  color: #4f46e5;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
-}
-
-.card {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-  max-width: 300px;
-  text-align: center;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-}
-
-.card h3 {
-  color: #4f46e5;
-  margin-bottom: 0.5rem;
-}
-
-.card p {
-  font-size: 0.95rem;
-  margin-bottom: 1rem;
-  color: #374151;
-}
-
-.card a {
-  display: inline-block;
+.link-orange {
+  color: #ff6f00;
   text-decoration: none;
-  color: white;
-  background-color: #4f46e5;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  transition: background-color 0.3s;
 }
-
-.card a:hover {
-  background-color: #6366f1;
-}
-
-/* Arquitetura */
-.architecture {
-  max-width: 1000px;
-  margin: 3rem auto;
-  padding: 0 1rem;
-  text-align: center;
-}
-
-.architecture img {
-  max-width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-  margin-bottom: 1rem;
-}
-
-.architecture h2 {
-  color: #4f46e5;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-footer {
-  text-align: center;
+.link-orange:hover {
+  text-decoration: underline;
 }
